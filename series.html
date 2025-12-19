@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series</title>
+    <!-- Style sheet Css -->
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <!-- Boostrap CSS  -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body style="background-color: black;">
+    <header>
+
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-1" href="#">
+
+                    <img src="images/theatre.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-5 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Auditorium
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="movies.html">Movies</a></li>
+                                <li><a class="dropdown-item " href="shows.html">Shows</a></li>
+                                <li><a class="dropdown-item " href="series.html">Series</a></li>
+                                <li>
+                                    <hr class="dropdown-divider bg-dark">
+                                </li>
+                                <li><a class="dropdown-item " href="kids.html">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Award.html">Awards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- --------------------------------- -->
+
+    </header>
+
+
+    <main>
+        <div class="shows-image">
+            <img src="images/carousel/Theatre stage.jpg" alt="www.theatre.com">
+            <button type="button" class="btn btn-danger">Book Now</button>
+        </div>
+
+
+
+        <!-- Cards starts from here -->
+
+        <div class="text-white justify-content-start mb-5 ms-2">
+            <h1>Pakistani Drama's</h1>
+        </div>
+
+        <div class="card-main-mv d-flex justify-content-start gap-4">
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/MAIN KAHANI HUN.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">MAIN KAHANI HUN</h5>
+                        <p class="card-text">A heartfelt drama exploring destiny, sacrifice, and the search for
+                            identity.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#series1">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="series1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">MAIN KAHANI HUN</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/MAIN KAHANI HUN.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>MAIN KAHANI HUN</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Main Kahani Hun" is an emotional story that unravels the struggles of a woman
+                                    finding her true self. Torn between love, duty, and societal expectations, she
+                                    learns that every sacrifice shapes destiny. With powerful performances and moving
+                                    storytelling, the drama highlights resilience, inner strength, and the journey
+                                    toward self-discovery7</p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/ISHQ MUAFIQ.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">ISHQ MUNAFIQ</h5>
+                        <p class="card-text">A gripping tale of love, betrayal, and masked intentions.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#series2">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="series2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">ISHQ MUNAFIQ</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/ISHQ MUAFIQ.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>ISHQ MUNAFIQ</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Ishq Munafiq" is a powerful drama about love tested by deceit. When trust is broken,
+                                    relationships struggle to survive hidden agendas and emotional betrayals. The story
+                                    unfolds with unexpected twists and heartfelt performances, highlighting the fragile
+                                    nature of trust. A must-watch for those who enjoy intense, emotional storytelling.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/GUNAH.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">GUNAH</h5>
+                        <p class="card-text">A dark tale of guilt, redemption, and the price of sin.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#series3">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="series3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">GUNAH</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/GUNAH.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>GUNAH</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Gunah" is a gripping drama that explores the consequences of choices driven by
+                                    desire and betrayal. As secrets unfold, characters struggle with guilt and the
+                                    haunting weight of their actions. The story weaves themes of morality, justice, and
+                                    redemption, delivering a powerful message that every sin leaves an unshakable mark.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/TAALUQ.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">TAALUQ</h5>
+                        <p class="card-text">An emotional drama exploring family ties, trust, and fragile love.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#series4">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="series4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">TAALUQ</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/TAALUQ.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>TAALUQ</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Taaluq" is a heartfelt drama that dives into love, loyalty, and family values. As
+                                    relationships face challenges of misunderstanding and sacrifice, the story shows how
+                                    trust becomes the foundation of survival. With strong characters and emotional
+                                    depth, it resonates with audiences who treasure lasting bonds and meaningful human
+                                    connections.</p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/ZEHRA.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">ZEHRA</h5>
+                        <p class="card-text">A moving tale of resilience, sacrifice, and a woman’s strength.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#series5">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="series5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">ZEHRA</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/ZEHRA.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>TAALUQ</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Zehra" follows the inspiring journey of a young woman who faces life’s hardships
+                                    with courage and determination. Battling societal pressures and personal struggles,
+                                    she learns the value of sacrifice and self-belief. This emotional drama highlights
+                                    themes of empowerment, resilience, and love, leaving audiences deeply touched by her
+                                    story.</p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/READY STEADY GO.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">READY STEADY GO</h5>
+                        <p class="card-text">A fast-paced family drama filled with humor, chaos, and heart.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#series6">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="series6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">READY STEADY GO
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/READY STEADY GO.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>READY STEADY GO</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Ready Steady Go" is a lighthearted drama that captures the everyday chaos of a
+                                    quirky family. Packed with comedic moments, witty dialogues, and relatable
+                                    situations, it delivers wholesome entertainment for all ages. With charming
+                                    performances and fun storytelling, the show highlights love, laughter, and
+                                    togetherness in the simplest of ways.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <!-- Footer starts from here  -->
+    <footer class="flex-wrap flex-grow-1 m-5">
+        <div class="footermain">
+
+            <div class="footersec1">
+                <div class="footerimg">
+                    <img src="images/theatre.png" alt="">
+                </div>
+                <div class="footericons">
+                    <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footersec2">
+                <ul>
+
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About US</li>
+                    </a>
+                    <a href="Contact.html">
+                        <li>Contact US</li>
+                    </a>
+                    <a href="#">
+                        <li>magzines</li>
+                    </a>
+                    <a href="Gallery.html">
+                        <li>Artist Gallery</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footersec3">
+                <ul>
+                    <a href="#">
+                        <li>Help</li>
+                    </a>
+                    <a href="#">
+                        <li>cookie Policy</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacy Policy</li>
+                    </a>
+                    <a href="#">
+                        <li>Terms And Conditions</li>
+                    </a>
+                    <a href="#">
+                        <li>Cancellation policy</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footersec4">
+                <h5>Dowload our app on :</h5>
+                <div class="footerimages">
+                    <img src="images/apple-store-badge.png" alt="">
+                    <img src="images/google-play-badge.png" alt="">
+                    <img src="images/amazon-appstore-badge.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JavaScript/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shows</title>
+    <!-- Style sheet Css -->
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <!-- Boostrap CSS  -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body style="background-color: black;">
+    <header>
+
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-1" href="#">
+
+                    <img src="images/theatre.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-5 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Auditorium
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="movies.html">Movies</a></li>
+                                <li><a class="dropdown-item " href="shows.html">Shows</a></li>
+                                <li><a class="dropdown-item " href="series.html">Series</a></li>
+                                <li>
+                                    <hr class="dropdown-divider bg-dark">
+                                </li>
+                                <li><a class="dropdown-item " href="kids.html">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Award.html">Awards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- --------------------------------- -->
+
+    </header>
+
+
+    <main>
+
+        <div class="shows-image">
+            <img src="images/carousel/Theatre stage.jpg" alt="www.theatre.com">
+            <button type="button" class="btn btn-danger">Book Now</button>
+        </div>
+
+        <!-- Upcoming Events Section -->
+        <div class="card-heading-mv ps-4 pt-4">
+            <h2>Upcoming Shows</h2>
+        </div>
+
+        <div class="container my-5">
+            <div class="row g-4">
+
+                <!-- Event 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow-sm border-0 h-100 bg-black">
+                        <img src="images/cards/Richard.png" class="card-img-top" alt="Event 1">
+                        <div class="card-body text-center text-white">
+                            <h5 class="card-title">Richard III</h5>
+                            <p class="card-text">In the aftermath of the War of the Roses, a young Richard of Gloucester
+                                begins his manipulative climb....</p>
+                            <p class="text-muted"><small>📅 Oct 15, 2025 • 7:00 PM</small></p>
+
+                            <!-- Offcanvas starts From here  -->
+
+                            <!-- Offcavas button  -->
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight">Details
+                            </button>
+
+                            <!-- Offcanvas Tittle  -->
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasRight1"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Richard III</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <!-- OffcavasBody  -->
+                                <div class="offcanvas-body text-bg-dark">
+                                    <div class="offcanvasimg1">
+                                        <img src="images/cards/Richard.png" alt="www.theatre.com" width="100%">
+                                    </div>
+                                    <div class="offcanvastext1">
+                                        <h3>Richard III</h3>
+
+                                        <p>
+                                            In the aftermath of the War of the Roses, a young Richard of Gloucester
+                                            begins his manipulative climb to power in this savagely comic production
+                                            from the Royal Shakespeare Company. Directed by Gregory Doran and starring
+                                            Arthur Hughes in the title role, this thrilling climax to Shakespeare’s
+                                            first great history cycle explores the dangers of tyranny. This production
+                                            was captured in Stratford-upon-Avon in 2022.
+                                        </p>
+                                        <p><small>📅 Oct 15, 2025 • 7:00 PM</small></p>
+
+                                        <div class="offcanvasbtn1 d-flex justify-content-center gap-2">
+                                            <button type="button" class="btn btn-primary">Prebook</button>
+                                            <p>OR</p>
+                                            <button type="button" class="btn btn-secondary">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow-sm border-0 h-100 bg-black">
+                        <img src="images/cards/themadhater-card.png" class="card-img-top" alt="Event 2">
+                        <div class="card-body text-center text-white">
+                            <h5 class="card-title">The Mad Hatter's Tea Party</h5>
+                            <p class="card-text">Step into a fantastical world where being different is something to
+                                celebrate! The Mad Hatter’s Tea...
+                            </p>
+                            <p class="text-muted"><small>📅 Nov 02, 2025 • 8:00 PM</small></p>
+
+                            <!-- Offcanvas starts From here  -->
+
+                            <!-- Offcavas button  -->
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">Details
+                            </button>
+
+                            <!-- Offcanvas Tittle  -->
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasRight2"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">The Mad Hatter's Tea Party</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <!-- OffcavasBody  -->
+                                <div class="offcanvas-body text-bg-dark">
+                                    <div class="offcanvasimg1">
+                                        <img src="images/cards/themadhater-card.png" alt="www.theatre.com" width="100%">
+                                    </div>
+                                    <div class="offcanvastext1">
+                                        <h3>The Mad Hatter's Tea Party</h3>
+                                        <p>
+                                            Step into a fantastical world where being different is something to
+                                            celebrate! The Mad Hatter’s Tea Party brings Lewis Carroll’s classic to life
+                                            with a hip-hop twist – it’s a high-energy, family-friendly show from
+                                            ZooNation, packed with dynamic dance and original music.
+                                            <br>
+                                            Set in a quirky institution, Ernest is the newcomer trying to help a group
+                                            of characters who don’t quite fit in – like Alice who struggles with her
+                                            ever-changing size, and the Mad Hatter who is stuck in a perpetual tea-time
+                                            frenzy. But in this colourful world, Ernest starts to wonder: what is normal
+                                            anyway?
+                                        </p>
+                                        <p><small>📅 Nov 02, 2025 • 8:00 PM</small></p>
+
+                                        <div class="offcanvasbtn1 d-flex justify-content-center gap-2">
+                                            <button type="button" class="btn btn-primary">Prebook</button>
+                                            <p>OR</p>
+                                            <button type="button" class="btn btn-secondary">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow-sm border-0 h-100 bg-black">
+                        <img src="images/cards/Much Ado About Nothing.png" class="card-img-top" alt="Event 3">
+                        <div class="card-body text-center text-white">
+                            <h5 class="card-title">Much Ado About Nothing</h5>
+                            <p class="card-text">
+                                In one of Shakespeare's most loved comedies, Much Ado About Nothing, Beatrice and
+                                Benedick are adam...
+                            </p>
+                            <p class="text-muted"><small>📅 Dec 10, 2025 • 6:30 PM</small></p>
+
+                            <!-- Offcanvas starts From here  -->
+
+                            <!-- Offcavas button  -->
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight3" aria-controls="offcanvasRight">Details
+                            </button>
+
+                            <!-- Offcanvas Tittle  -->
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasRight3"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Much Ado About Nothing</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <!-- OffcavasBody  -->
+                                <div class="offcanvas-body text-bg-dark">
+                                    <div class="offcanvasimg1">
+                                        <img src="images/cards/Much Ado About Nothing.png" alt="www.theatre.com"
+                                            width="100%">
+                                    </div>
+                                    <div class="offcanvastext1">
+                                        <h3>Much Ado About Nothing</h3>
+
+                                        <p>
+                                            In one of Shakespeare's most loved comedies, Much Ado About Nothing,
+                                            Beatrice and Benedick are adamant in their mutual dislike, while Claudio and
+                                            Hero are deep in love, and the two stories take an unexpected course.
+
+                                            This production was captured by Digital Theatre live at Wyndham's Theatre in
+                                            London’s West End. It played to sold-out houses and received wide critical
+                                            acclaim. Directed by Josie Rourke, it starred David Tennant as Benedick and
+                                            Catherine Tate as Beatrice.
+                                        </p>
+                                        <p><small>📅 Nov 02, 2025 • 8:00 PM</small></p>
+
+                                        <div class="offcanvasbtn1 d-flex justify-content-center gap-2">
+                                            <button type="button" class="btn btn-primary">Prebook</button>
+                                            <p>OR</p>
+                                            <button type="button" class="btn btn-secondary">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- {---------------------------------------------------------------} -->
+
+
+        <!-- Cards starts from here -->
+
+        <div class="text-white justify-content-start mb-5 ms-2">
+            <h1>Talkshow</h1>
+        </div>
+
+        <div class="card-main-mv d-flex justify-content-start gap-4">
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/THE SHOAIB AKHTAR SHOW 2.0.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">THE SHOAIB AKHTAR SHOW 2.0</h5>
+                        <p class="card-text">Candid cricket talk, fearless opinions, and unfiltered stories with Shoaib.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#talkshow1">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="talkshow1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">THE SHOAIB AKHTAR SHOW 2.0</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/THE SHOAIB AKHTAR SHOW 2.0.png" alt="www.theatre.com"
+                                        width="100%">
+                                </div>
+
+                                <h2>THE SHOAIB AKHTAR SHOW 2.0</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"The Shoaib Akhtar Show 2.0" returns with Pakistan’s Rawalpindi Express hosting bold
+                                    and unfiltered conversations. Mixing cricket, life, and controversy, Shoaib brings
+                                    humor, honesty, and unique storytelling. With star guests and fearless discussions,
+                                    the show offers a refreshing blend of entertainment and insight, making every
+                                    episode dynamic and unforgettable.</p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/THE MIRZA MALIK SHOW.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">THE MIRZA MALIK SHOW</h5>
+                        <p class="card-text">A celebrity talk show blending entertainment, candid chats, and global
+                            perspectives.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#talkshow2">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="talkshow2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">THE MIRZA MALIK SHOW</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/THE MIRZA MALIK SHOW.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>THE MIRZA MALIK SHOW</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"The Mirza Malik Show" brings together sports icons Sania Mirza and Shoaib Malik as
+                                    hosts, offering fans an exciting mix of celebrity interviews and fun conversations.
+                                    With humor, charm, and diverse guests from around the world, the show blends glamour
+                                    and relatability, creating a lively platform full of entertainment and inspiration.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/GOOGLY SHOW.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">GOOGLY SHOW</h5>
+                        <p class="card-text">A fun cricket talk show with humor, insights, and star guests
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#talkshow3">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="talkshow3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">GOOGLY SHOW</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/GOOGLY SHOW.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>GOOGLY SHOW</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Googly Show" blends cricket, comedy, and candid discussions in a lighthearted
+                                    format. Featuring cricketers, celebrities, and analysts, it delivers a unique mix of
+                                    sports insights and entertainment. With playful banter, surprising revelations, and
+                                    engaging storytelling, the show appeals to cricket fans and families seeking
+                                    laughter with their dose of sports.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/Comedy Nights With Kapil.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">Comedy Nights With Kapil</h5>
+                        <p class="card-text">A comedy show full of laughter, celebrity guests, and hilarious skits.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#talkshow4">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="talkshow4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Comedy Nights With Kapil</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/Comedy Nights With Kapil.png" alt="www.theatre.com"
+                                        width="100%">
+                                </div>
+
+                                <h2>Comedy Nights With Kapil</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Comedy Nights With Kapil" became a household favorite by blending humor, family
+                                    drama, and celebrity interactions. Hosted by the witty Kapil Sharma, the show
+                                    delivers endless laughs through quirky characters, fun banter, and spontaneous
+                                    comedy. With memorable performances and star appearances, it remains an iconic stage
+                                    for entertainment and laughter-filled evenings.</p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/CATS ON COUCH.png" class="card-img-top" alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">CATS ON COUCH</h5>
+                        <p class="card-text">A lighthearted talk show mixing fun conversations, laughter, and celebrity
+                            vibes.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#talkshow5">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="talkshow5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">CATS ON COUCH</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/CATS ON COUCH.png" alt="www.theatre.com" width="100%">
+                                </div>
+
+                                <h2>CATS ON COUCH</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"Cats on Couch" brings a refreshing dose of entertainment with candid conversations
+                                    and playful banter. Set in a cozy, casual environment, the show features celebrities
+                                    opening up about their lives, careers, and untold stories. With humor, charm, and
+                                    relaxed storytelling, it creates a warm and entertaining experience for audiences.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-mv">
+                <div class="card bg-black text-white theatre-cards" style="width: 18rem;">
+                    <img src="images/cards/THE KAPIL SHARMA SHOWSEASON 2.png" class="card-img-top"
+                        alt="www.theatre.com">
+                    <div class="card-body">
+                        <h5 class="card-title">THE KAPIL SHARMA SHOW | SEASON 2</h5>
+                        <p class="card-text">A laughter-packed comedy show with stars, fun, and endless entertainment.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#talkshow6">
+                            Watch
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="talkshow6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">THE KAPIL SHARMA SHOW | SEASON 2
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modalimg">
+                                    <img src="images/cards/THE KAPIL SHARMA SHOWSEASON 2.png" alt="www.theatre.com"
+                                        width="100%">
+                                </div>
+
+                                <h2>THE KAPIL SHARMA SHOW | SEASON 2</h2>
+                                <div class="d-flex justify-content-start gap-3 fs-5">
+                                    <p class="card-border-mv">13+</p>
+                                    <p>• 2h 41m</p>
+                                </div>
+                                <p>"The Kapil Sharma Show | Season 2" returns with bigger laughs, celebrity guests, and
+                                    unforgettable moments. Hosted by the king of comedy, Kapil Sharma, the show blends
+                                    humor, skits, and candid conversations. With lively performances and nonstop
+                                    entertainment, it continues to be a favorite for families and comedy lovers alike.
+                                </p>
+                                <div class="d-flex justify-content-center align-items-center gap-3">
+                                    <button type="button" class="btn btn-primary">Subscribe</button>
+                                    <h4>OR</h4>
+                                    <button type="button" class="btn btn-secondary">Rent</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </main>
+
+
+    <!-- Footer starts from here  -->
+    <footer class="flex-wrap flex-grow-1 m-5">
+        <div class="footermain">
+
+            <div class="footersec1">
+                <div class="footerimg">
+                    <img src="images/theatre.png" alt="">
+                </div>
+                <div class="footericons">
+                    <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footersec2">
+                <ul>
+
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About US</li>
+                    </a>
+                    <a href="Contact.html">
+                        <li>Contact US</li>
+                    </a>
+                    <a href="#">
+                        <li>magzines</li>
+                    </a>
+                    <a href="Gallery.html">
+                        <li>Artist Gallery</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footersec3">
+                <ul>
+                    <a href="#">
+                        <li>Help</li>
+                    </a>
+                    <a href="#">
+                        <li>cookie Policy</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacy Policy</li>
+                    </a>
+                    <a href="#">
+                        <li>Terms And Conditions</li>
+                    </a>
+                    <a href="#">
+                        <li>Cancellation policy</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footersec4">
+                <h5>Dowload our app on :</h5>
+                <div class="footerimages">
+                    <img src="images/apple-store-badge.png" alt="">
+                    <img src="images/google-play-badge.png" alt="">
+                    <img src="images/amazon-appstore-badge.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JavaScript/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>

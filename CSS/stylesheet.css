@@ -1,0 +1,155 @@
+/* NavBar CSS */
+.fa-solid , .fa-grip {
+    font-size: 1.5rem; 
+}
+.nav-link:hover{
+    
+    color: #ffffff !important;
+    transform: scale(1.2);
+}
+
+/* {------------------------------------------------------} */
+
+/* Carousel CSS  */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 750px;   /* keep within your image's height */
+  object-fit: cover;   /* avoids distortion, crops neatly */
+}
+
+
+/* {------------------------------------------------------} */
+
+/* Cards Css  */
+
+.card-heading-mv {
+  color: #ffffff;
+  text-align: center;
+}
+.card-title {
+  font-size: 16px;
+}
+.card-border-mv {
+  border: 2px solid #ffffff;
+  padding: 1.5px;
+}
+.theatre-cards:hover {
+  transform: scale(1.1);
+}
+
+/* {------------------------------------------------------} */
+
+
+/* Footer CSS */
+.footermain {
+  display: flex;
+  justify-content: space-around;
+}
+.footericons{
+  font-size: 35px;
+}
+.footersec2 ul a li , .footersec3 ul a li {
+  list-style: none;
+}
+.footersec2 ul a ,
+.footersec3 ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footersec2 ul a :hover ,
+.footersec3 ul a :hover {
+  transform: scale(1.04);
+
+}
+
+
+/* {------------------------------------------------------} */
+
+
+/* Off Canvas CSS  */
+
+/* Theatre Cards */
+.theatrecard {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  gap: 100px;
+  color: #ffffff;
+}
+.theatrecardsec1 .buttoncard {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* {------------------------------------------------------} */
+
+/* Contact US Page CSS starts From here  */
+
+.contactmain {
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.contactbody{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 100px;
+}
+.contactleftsection{
+  width: 350px;
+}
+.contactgroup input , .contactgroup textarea {
+   width: 100%;
+   border: none;
+   border-bottom: 2px solid gray;
+   outline: none;
+   color: #ffffff;
+   background-color: black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.contactbtn button {
+  width: 100%;
+  background-color: gray;
+  color: #ffffff;
+}
+
+/* Contact US Page CSS Ends here  */
+/* {------------------------------------------------------} */
+
+
+/* Artist gallery page css starts from here  */
+
+                        
+.gallerycardhead h3 {
+  font-size: 35px;
+}
+.gallerycardhead h5 {
+  font-size: 15px;
+  color: orangered;
+}
+
+/* {------------------------------------------------------} */
+
+
+/* Shows Page  */
+.shows-image {
+  position: relative;
+}
+.shows-image img {
+  width: 100%;
+  height: auto;
+}
+.shows-image button {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+}
