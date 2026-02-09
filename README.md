@@ -1,6 +1,6 @@
 # Theatre-Project
 this was my first aptech e-project
-
+Today i set it locally on my laptop so i can keep it updated
 
 1.Press ESC once.
 
