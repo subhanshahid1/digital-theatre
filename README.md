@@ -9,5 +9,5 @@ Today i set it locally on my laptop so i can keep it updated
 
 3.Press ENTER.
 
-(✅ This means: write (save) + quit).
+(✅ This means: write (save) + quit).s
 
