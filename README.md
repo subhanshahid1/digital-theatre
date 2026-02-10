@@ -2,6 +2,11 @@
 
 Digital Theatre is a responsive frontend web project focused on showcasing theatre and movie-related content with a clean and modern UI.
 
+## 🔗 Live Demo
+
+👉 https://subhanshahid-dev.github.io/digital-theatre/
+
+
 ## Features
 
 - Responsive layout
