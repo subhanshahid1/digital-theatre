@@ -29,10 +29,14 @@
 .card-title {
   font-size: 16px;
 }
-.card-border-mv {
-  border: 2px solid #ffffff;
-  padding: 1.5px;
+
+.badge-info {
+  border: var(--badge-info-border, var(--badge-border, 1px solid #fff)) !important;
 }
+.badge {
+    font-weight: 400;
+}
+
 .theatre-cards:hover {
   transform: scale(1.1);
 }
